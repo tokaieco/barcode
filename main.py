@@ -1,10 +1,10 @@
 import streamlit as st
-import cv2#
-import time#
+import cv2
+import time
 from PIL import Image
 #追加
-from collections import defaultdict#
-from datetime import datetime#
+from collections import defaultdict
+from datetime import datetime
 from pyzbar.pyzbar import decode
 #import pyzbar
 import pandas as pd
@@ -12,8 +12,8 @@ import pandas as pd
 #import threading
 import csv
 #音
-import numpy as np  # install : conda install numpy
-import pyaudio      # install : conda install pyaudio
+import numpy as np
+import pyaudio
 # サンプリングレートを定義
 SAMPLE_RATE = 44100
 # 指定ストリームで、指定周波数のサイン波を、指定秒数再生する関数
